@@ -1,10 +1,10 @@
 import { FC } from "react";
-import { Login } from "./Page/Login";
+import { Router } from "./Router/Router";
 
 const App: FC = () => {
   return (
     <div>
-      <Login />
+      <Router />
     </div>
   );
 };
